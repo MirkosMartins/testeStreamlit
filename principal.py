@@ -17,6 +17,6 @@ if st.button('Calcular'):
     st.image('pesoNormal.png')
   if imc >= 25:
     st.write('O seu IMC vale',imc,'e esta acima do peso')
-    st.image('acimaPeso.jpg')
+    st.image('acimaPeso.png')
   
 
