@@ -9,5 +9,5 @@ altura = st.number_input('Digite a sua altura:')
 
 imc = peso/(altura*altura)
 
-st.write('O seu IMC vale'+imc)
+st.write('O seu IMC vale',imc)
 
