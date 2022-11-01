@@ -5,5 +5,9 @@ st.write('Oi, estamos no aplicativo para calcular o IMC') #st.write escreve na t
 
 #o usuario ira fornecer peso e altura
 peso = st.number_input('Digite o seu peso:')
-st.write(peso)
+altura = st.number_input('Digite a sua altura:')
+
+imc = peso/(altura*altura)
+
+st.write('O seu IMC vale'+imc)
 
