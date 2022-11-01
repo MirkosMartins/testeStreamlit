@@ -1,5 +1,9 @@
 import streamlit as st #importando a biblioteca streamlit
 
-st.title('APP Aula IA-EngBio')
-st.write('Oi, estamos no aplicativo') #st.write escreve na tela
+st.title('APP Aula IA-EngBio: IMC')
+st.write('Oi, estamos no aplicativo para calcular o IMC') #st.write escreve na tela
+
+#o usuario ira fornecer peso e altura
+peso = number_input('Digite o seu peso:')
+st.write(peso)
 
